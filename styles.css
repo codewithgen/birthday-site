@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url("https://images.pexels.com/photos/2088170/pexels-photo-2088170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    color: #AE097C;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+
+}
+h1, h2 {
+    font-size: 2rem;
+    text-shadow: 0 0 1px black;
+    font-family: 'Macondo', sans-serif;
+}
+
+
+
+#mom-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #FFDBE7;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers, #gift-img-gift {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/free-photo/golden-gift-ribbon-bow_1101-1187.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/UO5elnTqo4vSg/giphy.gif");
+    background-size: cover;
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media2.giphy.com/media/Cp6IXx2OfDCNi/giphy.gif?cid=ecf05e47ukcl2kty91yath85gxyz4r8ajiw20dw4wmul1ku1&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media2.giphy.com/media/XTxxaXqAsuIgw/giphy.gif?cid=ecf05e47jf5dvny5zsui8gnwrwkeuto1q4vdl51u9jmtuo96&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media1.giphy.com/media/xvqIOHfQvth5NeoT0Y/giphy.gif?cid=ecf05e4785q0am3r2h5ijeq865xkm068xgb7qlp9miegmshc&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media1.giphy.com/media/P5AzUPs605TYCpQV5e/giphy.gif?cid=ecf05e4716vo2wverd6ofxwx597on6j44025d1i2ls1jlivl&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+#gift-img-gift:hover {
+    background-image: url("https://media3.giphy.com/media/eyYr00F5HSZ58V5yHs/giphy.webp?cid=ecf05e47fn47pwakfe421p4jkymh44t7ypeu0w1ub6j80jhk&rid=giphy.webp&ct=g");
+    background-size:contain;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
